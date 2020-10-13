@@ -7,7 +7,7 @@ job('First-Maven-Project-Via-DSL') {
        git {
               remote {
 	           url('https://github.com/schmuesm/Jenkins_Upgradev3.git')
-	              credentials('GitHub User')
+	              credentials('schmuesm')
                }
                branch('*/master')
 	}
